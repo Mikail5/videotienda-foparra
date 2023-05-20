@@ -1,0 +1,118 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+#de{
+	width: 400px;
+	border-radius: 20px;
+    border-color:#6b8bff ;
+    align-self: flex-end;
+    font-family: sans-serif;
+	padding: 8px;
+  	border: #6b8bff 3px solid;
+  	outline: none;
+}
+.enviar{
+	width: 100px;
+	border: 0px solid #ffffff;
+	border-radius: 20px;
+    border-color:#6b8bff;
+    align-self: flex-end;
+    font-family: sans-serif;
+	padding: 8px;
+  	border: #6b8bff 3px solid;
+}
+.iden{
+	width: 180px;
+	border-radius: 20px;
+    border-color:#6b8bff;
+    font-family: sans-serif;
+	padding: 8px;
+  	border: #6b8bff 3px solid;
+	
+}
+.gen{
+	width: 95px;
+	border-radius: 20px;
+    border-color:#6b8bff;
+    align-self: flex-end;
+    font-family: sans-serif;
+	padding: 8px;
+  	border: #6b8bff 3px solid;
+	
+}
+body h2{
+	font-family:sans-serif;
+}
+#nav
+{
+	background-color:#6b8bff;
+	height: 45px;
+	text-align: center;
+	line-height: 40px;
+}
+
+ul a{
+	margin: 40px;
+	text-decoration:none;
+	color: white;
+}
+.barra{
+
+	padding: 30px 10px;
+	width: 1400px;
+	margin-right:auto;
+	margin-left:auto;
+	justify-content: center;
+}
+#ima{
+	margin-left:5px;
+}
+.tabla{
+	text-decoration:none;
+	color: white;
+	width: 280px;
+	height: auto;
+	margin:260px;
+	background: rgb(26, 143, 212);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+#bot{
+	border-radius: 20px;
+	text-decoration:none;
+	color: black;
+	width: 200px;
+	background: rgb(255, 255, 255);
+	padding: 10px 15px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	margin-left:18px;
+	margin-right:18px;
+	text-align:center; 
+}
+  .center{
+  font-family: Open Sans;
+  color: #ffffff;
+  background-color:transparent;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color:white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+ }
+ 
+ div.center:hover {
+  background-color: #ffffff;
+  color: #1a8fd4;
+  transition: 0.5s;
+ }
+ #imaj{
+ 	margin-left:50px;
+ }
+ .title{
+ 	background: linear-gradient(#6917ec,#b291e6);
+ 	-webkit-background-clip: text;
+ 	color: transparent;
+ }

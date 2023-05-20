@@ -1,0 +1,313 @@
+#est{
+	background-color:#43dc43;
+}
+#ago{
+	background-color:#ec2626;
+}
+th{
+	font-size:20px;
+	font-weight:100px;
+}
+body h4{
+	color:black;
+}
+body h5{
+	color:black;
+}
+body h1
+{
+	font-family: 'Poppins', sans-serif;
+	color: #ed6973;
+	text-align: center;
+}
+body h2
+{
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(yellow,#ffffaa);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+body h3
+{
+	font-family: 'Poppins', sans-serif;
+}
+.es{
+	background: linear-gradient(yellow,#ffffaa);
+	-webkit-background-clip: text;
+	color: transparent;
+	text-align: center;
+}
+.fo{
+	margin-right: auto;
+}
+ul
+{
+	margin: 40px;
+	text-decoration:none;
+	color: white;
+	text-align: center;
+}
+a
+{
+	text-decoration:none;
+	color: white;
+}
+#nav
+{
+	display: flex;
+	background-color: #ffffff;
+	height: 90px;
+	text-align: left;
+	font-family: "BankGothic Md BT";
+	color: white;
+	line-height: 40px;
+}
+.logo{
+	height: 100%;
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#enla
+{	
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#botnav
+{
+	margin: 20px;
+	background-color: #6b8bff;
+	height: 50px;
+	width: 160px;
+	text-align: -webkit-left;
+	-webkit-transition: background-color 0.2s;
+}
+div#botnav:hover
+{
+	background-color: #6b8bff;
+	color:#ffffff;
+	text-align:center;
+	height: 40px;
+	width: 140px;
+	border-radius:30px;
+	transition:0.5s;
+}
+div#botnav:not(:hover)
+{
+	background-color: #ffffff;
+	color:#6b8bff;
+	text-align:center;
+	height: 40px;
+	width: 140px;
+	border-radius:0px;
+	transition:0.5s;
+}
+.neg
+{
+	font-weight: bold;
+}
+.colneg
+{
+	color: black;
+}
+#conpad
+{
+	background: linear-gradient(to right, red,darkred 10%, red 20%,darkred 30%,red 40%,darkred 50%,red 60%,darkred 70%, red 80%,darkred 90%);
+	text-align: center;
+	display: flex;
+	justify-content: center; 
+}
+#contpel
+{
+	background-color: #494949;
+	margin: 10px;
+	padding: 10px;
+	border: 10px dotted yellow;
+}
+#conorg
+{
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: left;
+}
+#conind
+{
+	background-color: #FFF;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	font-family: "Segoe UI Semibold";
+	font-size: 20px;
+	text-align: center;
+	border: solid;
+	border-color: white;
+}
+#desc
+{
+	position: absolute;
+	height: 490px;
+	width: 330px;
+	background-color: rgba(33,33,33,0.8);
+	-webkit-transition: opacity 0.2s;
+	opacity: 0;
+}
+#pel1
+{
+	margin: 0px 8px;
+	font-family: "Verdana";
+	font-size: 16px;
+	color: white;
+	text-align: left;
+}
+#imag1
+{
+	background-image: url(img/Pelicula1.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag2
+{
+	background-image: url(img/Pelicula2.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag3
+{
+	background-image: url(img/Pelicula3.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag4
+{
+	background-image: url(img/Pelicula4.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag5
+{
+	background-image: url(img/Pelicula5.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag6
+{
+	background-image: url(img/Pelicula6.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag7
+{
+	background-image: url(img/Pelicula7.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag8
+{
+	background-image: url(img/Pelicula8.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag9
+{
+	background-image: url(img/Pelicula9.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+#imag10
+{
+	background-image: url(img/Pelicula10.jpg);
+	background-size: 330px;
+	background-repeat: no-repeat;
+	height: 490px;
+	width: 330px;
+}
+div#conind:hover div#desc
+{
+	opacity: 1;
+}
+footer
+{
+	border-color: gray;
+	text-align: center;
+	color:black;
+}
+table,th,td{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:1000px;
+	border-collapse:collapse;
+	border:1px solid black;
+
+}
+th{
+	padding:5px;
+	background-color:#6b8bff;
+}
+td{
+	padding:1px;
+	background-color:#dbf2f9;
+}
+.conpad2
+{
+	background: linear-gradient(to right, red,darkred 10%, red 20%,darkred 30%,red 40%,darkred 50%,red 60%,darkred 70%, red 80%,darkred 90%);
+	text-align: center;
+}
+.conpel2
+{
+	background-color: #494949;
+	margin: 10px;
+	padding: 10px;
+	border: 10px dotted yellow;
+	text-align: left;
+}
+.conorg2
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.conind2
+{
+	background-color: #FFF;
+	color: black;
+	margin: 5px auto;
+	padding: 10px;
+	font-family: "Segoe UI Semibold";
+	font-size: 20px;
+	text-align: center;
+	border: solid;
+	border-color: white;
+}
+.conpap
+{
+	background-color: #ececec;
+	margin: 10px;
+	padding: 10px;
+	width: 420px;
+	border: 10px ridge #a5572a;
+	text-align: center;
+}
+.orgins
+{
+	text-align: left;
+}

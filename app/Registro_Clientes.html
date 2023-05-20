@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="estilPeli.css">
+	<meta charset="UTF-8">
+	<title>Registrar clientes</title>
+</head>
+<body>
+  <div id="nav">
+    <img class="logo" src="img/GS20190510233535.gif" width="90px">
+    <h1 class="fo" >Foparra</h1>
+
+    <div id="enla">
+      <a href="Vendedor.html"><div id="botnav"><h3>Volver</h3></div></a>
+      <a href="peliculasEstreno.html"><div id="botnav"><h3>Cerrar Sesion</h3></div></a>
+    </div>
+  </div>
+  <div id="conpad">
+  <div class="conpap">
+	<h2 class="title"> REGISTRO DE CLIENTES </h2>
+	<IMG src="img/mario.png" width="100" height="100"/>
+  <div class="orgins">
+	<form name="form3" action="rec.php"  method="post"> 
+	<input id="de" type="text" name="nombre" required placeholder= "Nombre" size="40"> 
+  	<br>
+  	<br>
+  	<input id="de" type="text" name="Prapellido" required placeholder="Apellidos" size="40"> 
+  	<br>
+  	<br>
+  	<input id="de" type="number" name="edad" required placeholder= "Ingresa tu edad" >
+  	<br>
+  	<br>
+  	<select class="gen" name="Género">
+   <option value="1">Género</option> 
+   <option value="2">Masulino</option> 
+   <option value="3">Femenino</option> 
+  </select>
+  <br>
+  <br>
+  <input id="de" type="date" name="fecha" value="Fecha">
+  <br>
+  <br>
+  <input id="de" type="email" name="email" required placeholder="Email"><p>
+
+  <select class="iden" name="Identificación">
+   <option value="1">Cedula de Ciudadania</option> 
+   <option value="2">Cedula Extranjera</option> 
+   <option value="3">Tarjeta de Identidad</option>
+  </select>
+  <br>
+  <br>
+   <input id="de" type="text" name="Identidad" required placeholder= "No. Identificacion" size="10"></p>
+  </div>
+   <Input class="enviar" TYPE="submit" VALUE="Registrar" id="subir"/>
+ </form>
+</div>
+</div>
+<footer>
+    <hr>
+    <h3>Foparra© 2019 Todos los derechos reservados</h3>
+  </footer>
+</body>
+</html>
